@@ -10,7 +10,7 @@ if ( isset($_POST['logout']) ) {
     header('Location: index.php');
     return;
 }
-  
+   
 // Set up the values for the game...
 // 0 is Rock, 1 is Paper, and 2 is Scissors
 $names = array('Rock', 'Paper', 'Scissors');
